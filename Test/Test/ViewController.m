@@ -20,9 +20,6 @@
     NSLog(@"版本为0.0.2");
     
     NSLog(@"版本为0.0.2");
-    
-    NSLog(@"错误提交");
-
 
     
     // Do any additional setup after loading the view, typically from a nib.
