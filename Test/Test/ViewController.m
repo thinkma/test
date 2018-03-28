@@ -18,8 +18,8 @@
     [super viewDidLoad];
     
     NSLog(@"版本为0.0.2");
-    
     NSLog(@"版本为0.0.2");
+    
 
     
     // Do any additional setup after loading the view, typically from a nib.
