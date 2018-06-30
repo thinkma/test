@@ -6,6 +6,18 @@
             "desc": "描述，本次版本升级都提供了哪些功能。",
             "downUrl":"itms-apps://itunes.apple.com/cn/app/wang-yi-yun-yin-le-pao-bufm/id590338362?mt=8"
         },
-        "history": [
-        ]
+    "history": [
+        {
+            "major": "1.0",
+            "minor": 12,
+            "updateversion": 1,
+            "desc": "描述，本次版本升级都提供了哪些功能。"
+        },
+        {
+            "major": "0.9",
+            "minor": 5,
+            "updateversion": 1,
+            "desc": "描述，本次版本升级都提供了哪些功能。"
+        }
+    ]
     }
