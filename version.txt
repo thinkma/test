@@ -1,6 +1,6 @@
     {
         "newest": {
-            "verion": "1.1",
+            "verion": "0.9",
             "build": 12,
             "updateversion": 2,
             "desc": "描述，本次版本升级都提供了哪些功能。",
