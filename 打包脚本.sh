@@ -1,7 +1,7 @@
 # 工程名 
 APP_NAME="Test"
 # 证书 
-CODE_SIGN_DISTRIBUTION="Beijing Erlingjiujiu Network Technology Co., Ltd."
+CODE_SIGN_DISTRIBUTION="Beijing Dream Paradise Network Technology Co., Ltd."
 
 #打包模式 Debug/Release
 development_mode=Debug
@@ -29,7 +29,9 @@ DATE="$(date +%Y%m%d)"
 IPANAME="${APP_NAME}_V${bundleShortVersion}_${DATE}.ipa" 
 #要上传的ipa文件路径 
 IPA_PATH="$HOME/${IPANAME}" 
-echo ${IPA_PATH} echo "${IPA_PATH}">> text.txt #获取权限 security unlock-keychain -p "打包机器登录密码" $HOME/Library/Keychains/login.keychain # //下面2行是没有Cocopods的用法 
+echo ${IPA_PATH} echo "${IPA_PATH}">> text.txt 
+#获取权限 
+# security unlock-keychain -p "19890324" $HOME/Library/Keychains/login.keychain # //下面2行是没有Cocopods的用法 
 # echo "=================clean=================" 
 # xcodebuild -target "${APP_NAME}" -configuration 'Release' clean 
 # echo "+++++++++++++++++build+++++++++++++++++" # xcodebuild -target "${APP_NAME}" -sdk iphoneos -configuration 'Release' CODE_SIGN_IDENTITY="${CODE_SIGN_DISTRIBUTION}" SYMROOT='$(PWD)' 

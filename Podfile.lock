@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: f370acf0acfec47666aa4dc62c614aec8efaab0e
+PODS:
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - YYCache
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYCache
+
+SPEC CHECKSUMS:
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 8103fca8ac37cb9112219bf5d83fda2fe4350f48
 
 COCOAPODS: 1.5.3
